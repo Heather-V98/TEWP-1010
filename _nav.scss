@@ -1,0 +1,39 @@
+@use 'variables';
+$main-bg-color: #7678ed;
+$nav-bg-color: #7678ed;
+$nave-active: #fff;
+$text-color: #333;
+$card-bg: #fff;
+$border-color: #7678ed;
+
+nav {
+    width: 250px;
+    background-color: $nav-bg-color;
+    padding: 20px;
+    color: white;
+    box-shadow: 2px 0 5px rgba( 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav .active a {
+    background-color: $nav-active;
+    color: $nav-bg-color;
+}
