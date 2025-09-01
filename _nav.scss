@@ -1,17 +1,12 @@
 @use 'variables';
-$main-bg-color: #7678ed;
-$nav-bg-color: #7678ed;
-$nave-active: #fff;
-$text-color: #333;
-$card-bg: #fff;
-$border-color: #7678ed;
+
 
 nav {
     width: 250px;
     background-color: $nav-bg-color;
     padding: 20px;
     color: white;
-    box-shadow: 2px 0 5px rgba( 0, 0, 0.1);
+    box-shadow: 2px 0 5px rgba( 0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
 }
