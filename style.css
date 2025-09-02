@@ -31,8 +31,10 @@ nav .active a {
 }
 
 .card {
-  background-color: #7678ed;
+  background-color: #fff;
   border: 1px solid #7678ed;
+  flex: 1 0 300px;
+  margin: 10px;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -51,6 +53,17 @@ nav .active a {
   margin: 0;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
 body {
   padding: 0;
+}
+
+.flex {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
