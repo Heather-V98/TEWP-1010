@@ -1,9 +1,9 @@
-@use 'variables';
+@use 'variables' as v;
 
 
 nav {
     width: 250px;
-    background-color: $nav-bg-color;
+    background-color: v.$nav-bg-color;
     padding: 20px;
     color: white;
     box-shadow: 2px 0 5px rgba( 0, 0, 0, 0.1);
@@ -29,6 +29,6 @@ nav a:hover {
 }
 
 nav .active a {
-    background-color: $nav-active;
-    color: $nav-bg-color;
+    background-color: v.$nav-active;
+    color: v.$nav-bg-color;
 }
