@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>GameBuddy</title>
-    <h1>GameBuddy</h1>
+    <script src="https://kit.fontawesome.com/7881b06a5d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <div class="flex">
     <nav class="nav" style="width: 25%;">
+        <div class="nav-header">
+            <i class="fa-solid fa-gamepad"></i>
+            <h1 class="main-title">GameBuddy</h1>
+        </div>
         <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#" class="nav">Marvel Rivals</a></li>
-            <li><a href="#" class="nav">Stardew Valley</a></li>
-            <li><a href="#" class="nav">Mario Kart</a></li>
+            <li class="active"><a href="index.html"><i class="fa-regular fa-house"></i> Home</a></li>
+            <li class="#"><a href="marvelrivals.html"><i class="fa-regular fa-trophy"></i>Marvel Rivals</a></li>
+            <li><a href="#" class="nav"><i class="fa-solid fa-leaf"></i>Stardew Valley</a></li>
+            <li><a href="#" class="nav"><i class="fa-solid fa-car-side"></i>Mario Kart</a></li>
         </ul>
         <div style="margin-left: 25%;"></div>
     </nav>
@@ -23,43 +28,47 @@
     <main class="main-content">
         <h1 class="username">GoatGamer25</h1>
         <section class="homegrid">
-            <div class="card-container">
             <div class="card">
+                <i class="fa-regular fa-clock card-icon"></i>
                 <h2 class="card-title">Total Hours Played this Week</h2>
                 <p class="card-info">78</p>
             </div>
             <div class="card">
+                <i class="fa-regular fa-headset card-icon"></i>
                 <h2 class="card-title">Games Played</h2>
                 <p class="card-info">4</p>
             </div>
             <div class="card">
-            <div class="piechart-card">
+                <i class="fa-regular fa-trophy card-icon"></i>
+                <h2 class="card-title">Total Achievements</h2>
+                <p class="card-info">156</p>
+            </div>
+            <div class="card">
+                <i class="fa-regular fa-heart card-icon"></i>
+                <h2 class="card-title">Favorite Game</h2>
+                <p class="card-info">Marvel Rivals</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bullseye card-icon"></i>
+                <h2 class="card-title">Completion Rate</h2>
+                <p class="card-info">68%</p>
+            </div>
+            <div class="card piechart-card grid-span-2">
+                <i class="fa-solid fa-desktop card-icon"></i>
+                <h2 class="card-title">Platform Distribution</h2>
                 <div class="pie-chart"></div>
-                <h2 class="card-title">Platforms</h2>
                 <div class="chart-labels">
                     <span>PC</span>
                     <span>XBOX</span>
                     <span>PS</span>
                     <span>Switch</span>
-                </div> 
+                </div>
             </div>
+            <div class="card grid-row-span-2">
+                <h2 class="card-title">Gaming Health Check</h2>
+                <div class="addiction-level">Level of Addiction: Seek Help</div>
             </div>
-            </div>
-            <div class="card">
-                <h2 class="card-title">Total Achievements</h2>
-                <p class="card-info">156</p>
-            </div>
-            <div class="card">
-                <h2 class="card-title">Favorite Game</h2>
-                <p class="card-info">Marvel Rivals</p>
-            </div>
-            <div class="card">
-                <h2 class="card-title">Completion Rate</h2>
-                <p class="card-info">68%</p>
-            </div>
-        </div>
-        </div>
-        <div class="addiction-level">Level of Addiction: Seek Help</div>
+        </section>
     </main>
    
 </body>
