@@ -2,11 +2,13 @@
 @use 'nav';
 @use 'card';
 @use 'card-chart';
+@use 'username';
 
 // Variables
 
 body{
     padding:0;
+    margin: 0;
 }
 
 .flex {
