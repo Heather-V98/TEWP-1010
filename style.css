@@ -70,6 +70,26 @@ nav .active a {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
 }
 
+.color-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.color-dot.pc {
+  background-color: #a4508b;
+}
+.color-dot.xbox {
+  background-color: #f8a1d1;
+}
+.color-dot.ps {
+  background-color: #8fe388;
+}
+.color-dot.switch {
+  background-color: #89c4f4;
+}
+
 .card-title {
   font-size: 1rem;
   color: #666;
@@ -103,13 +123,33 @@ nav .active a {
   height: 150px;
   border-radius: 50%;
   margin: 20px 0;
-  background: conic-gradient(#a4508b 0deg 40deg, #f8a1d1 40deg 70deg, #8fe388 70deg 90deg, #89c4f4 90deg 100deg);
+  background: conic-gradient(#0fd320 0deg 40deg, #1c30e2 40deg 70deg, #f80101 70deg 90deg, #c2bcbc 90deg 100deg);
 }
 
 .chart-labels {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+.color-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.color-dot.pc {
+  background-color: #a4508b;
+}
+.color-dot.xbox {
+  background-color: #f8a1d1;
+}
+.color-dot.ps {
+  background-color: #8fe388;
+}
+.color-dot.switch {
+  background-color: #89c4f4;
 }
 
 .chart-labels span {
